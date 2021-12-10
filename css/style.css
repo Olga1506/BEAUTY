@@ -1,0 +1,171 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EFEFEF;
+    color: #333333;
+    font-size: 14px;
+}
+
+.wrapper{
+    max-width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/*Header*/
+/*================================================*/
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.nav >li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav>li>a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.header{
+    background-color: #fff;
+}
+
+hr{
+    border: 1px solid #EFEFEF;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.logo__item{
+    display: flex;
+    align-items: center;
+}
+
+.logo__item .logo{
+    padding-left: 20px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 116.6%;
+    color: #66C05D;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: #56944e;
+}
+
+.header__info span{
+   font-size: 16px;
+    margin-right: 40px;
+}
+
+.header__info button{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 12px 25px;
+    background: #FFFFFF;
+    border: 2px solid #66C05D;
+    box-sizing: border-box;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.header__info button:hover{
+    background: #EFEFEF;
+}
+
+.header__bottom{
+    padding: 30px 0;
+}
+
+.header__bottom .nav{
+    font-size: 16px;
+    line-height: 118.7%;
+    margin: 0;
+}
+
+.header__bottom .nav >li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*========================================================*/
+
+/*Banner*/
+/*==============================================================*/
+
+.banner{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 116.6%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.banner p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 143%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.btn{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 12px 26px;
+}
+
+.btn:hover{
+    background-color: #56944e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
